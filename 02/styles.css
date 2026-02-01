@@ -1,0 +1,38 @@
+body {
+    background-color:  rgba(127, 211, 244, 0.2);
+}
+
+header, section, aside, footer {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(250, 247, 217);
+    box-shadow: 0px 0px 2px, rgb(247, 234, 91);
+}
+
+.container {
+    background-color: rgb(191, 201, 210);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: #ccc 1px solid;
+    padding: 10px;
+    border-radius: 5px; 
+    margin: 20px auto;
+    max-width: 800px;
+
+}
+
+main {
+    display: flex;
+    gap: 10px;
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    min-width: 30%;
+}
+
